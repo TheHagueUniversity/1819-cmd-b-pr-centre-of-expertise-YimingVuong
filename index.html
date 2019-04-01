@@ -1,50 +1,38 @@
-<html><!-- REVIEW: Doctype? -->
+<!doctype html>
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Centre of Expertise - Home </title>
-
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-
-</head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+</style>
+</head>	
+	
 <body>
-	<!-- REVIEW: header? -->
-	<nav class="navTop">
-		<img class="col-2 logo" src="images/logo.png" alt="Logo Centre Of Expertise"><!-- REVIEW: escape hatch? alt attribuut -->
-
-		<h3 class="col-3 slogan">Let's change. You. Us. The World. </h3><!-- REVIEW: waarom is dit een h3 en geen h1? -->
-
-		<li><a href="account.html"><i class="fas fa-user"></i>Account</a></li><!-- REVIEW: je kan geen li zonder een ul gebruiken -->
-
+	<div class="container">
+		<header>
+			<nav class = "navigationBar col-12">
+				<div class = "slogan1"> 
+					<img class="logo" src="images/logo.png" alt="escape hatch" title ="logo Centre Of Expertise">
+					<p>Let's Change. <span class="slogan2"> You. Us. The World</span></p>
+				</div>
+				
+			<div class ="search">
+				  <input type="text" placeholder="Geef je zoekopdracht op..">
+				</div>
+			
 			<ul class="menu">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="onderzoek.html">Onderzoek</a></li>
 				<li><a href="publicatie.html">Publicatie</a></li>
 				<li><a href="overons.html">Over ons</a></li>
 				<li><a href="nieuws.html">Nieuws</a></li>
-
 			</ul>
-
-	</nav>
-
-	<img class="col-9 logo" src="images/content/banner1.jpg" alt="banner">	<!-- REVIEW: figure -->
-	<!-- REVIEW: start hier geen main? -->
-	<article class="col-5 article1">
-		<h3>Populaire publicaties</h3>	<!-- REVIEW: is dit geen h1 van het artikel, en tel hieronder dan door naar h2 en h3 -->
-		<h4> The challenges of urban ageing: Making cities age-friendly in Europe</h4>
-		<h3>Populaire publicaties</h3>
-		<h5>Mens en Technologie</h5>	<!-- REVIEW: is dit wel een titel? Als het een categorie is dan kun je beter een p class="category gebruiken" -->
-	<img class="col-3 logo" src="images/content/article.png" alt="article1"> <!-- REVIEW: figure -->
-	<p>Samen met onderzoekers van Tilburg University, en de Poolse Jagiellonian University en Wrocław University of Environmental and Life Sciences is een artikel geschreven over urban ageing ....
-	</p>
-	<img class="col-1 logo" src="images/UI/user2.png" alt="user2">
-	<h4>Joost van Hoof</h4>
-	</article>
-
-	<hr> <!--tijdelijke line-->
-
-
-
+		</nav>
+	
+		
+	</header>
+	</div>
 </body>
 </html>
