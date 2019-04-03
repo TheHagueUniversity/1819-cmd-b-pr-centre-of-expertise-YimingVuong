@@ -7,34 +7,35 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Montserrat'); 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* REVIEW: Plaats dit in je stylesheet */
 </style>
-</head>	
-	
+</head>
+
 <body>
 	<div class="container">
 		<header>
-			<nav class = "navigationBar col-12">
-				<div class = "slogan1"> 
+			<nav class = "navigationBar col-12"><!-- REVIEW: let op spaties, niet tussen = teken -->
+				<div class = "slogan1">
 					<img class="logo" src="images/logo.png" alt="escape hatch" title ="logo Centre Of Expertise">
 					<p id = "slogan">Let's Change. <span class="slogan2"> You. Us. The World</span></p>
-					
+
 				</div>
-				
-			<div class ="search">
-				  <input type="text" placeholder="Geef je zoekopdracht op..">
-				<button class="searchbtn"><em class="fa fa-search"></em></button>
-				
-				
-				
-				
+
+			<div class ="search">	<!-- REVIEW: gebruik hiervoor een form tag, los je in 1 keer 2 problemen op. <form class="search" method="" action=""> -->
+				  <input type="text" placeholder="Geef je zoekopdracht op.."><!-- REVIEW: input type="search" -->
+				<button class="searchbtn"><em class="fa fa-search"></em></button><!-- REVIEW: input type submit moet je gebruiken -->
+
+
+
+
 				</div>
-				
-				
+
+
 				 <a id="accountButton"  href="#"> Mijn account </a>
-			
-				
-			
+
+
+
 			<ul class="menu">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="onderzoek.html">Onderzoek</a></li>
@@ -43,8 +44,8 @@
 				<li><a href="nieuws.html">Nieuws</a></li>
 			</ul>
 		</nav>
-	
-		
+
+
 	</header>
 	</div>
 </body>
